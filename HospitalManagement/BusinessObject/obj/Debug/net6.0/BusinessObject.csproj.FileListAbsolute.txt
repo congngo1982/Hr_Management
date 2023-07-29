@@ -1,0 +1,14 @@
+N:\FPTU\Summer Semester 2023\PRN221\Assignment_2\HospitalManagement\BusinessObject\bin\Debug\net6.0\BusinessObject.deps.json
+N:\FPTU\Summer Semester 2023\PRN221\Assignment_2\HospitalManagement\BusinessObject\bin\Debug\net6.0\BusinessObject.runtimeconfig.json
+N:\FPTU\Summer Semester 2023\PRN221\Assignment_2\HospitalManagement\BusinessObject\bin\Debug\net6.0\BusinessObject.dll
+N:\FPTU\Summer Semester 2023\PRN221\Assignment_2\HospitalManagement\BusinessObject\bin\Debug\net6.0\BusinessObject.pdb
+N:\FPTU\Summer Semester 2023\PRN221\Assignment_2\HospitalManagement\BusinessObject\obj\Debug\net6.0\BusinessObject.csproj.AssemblyReference.cache
+N:\FPTU\Summer Semester 2023\PRN221\Assignment_2\HospitalManagement\BusinessObject\obj\Debug\net6.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+N:\FPTU\Summer Semester 2023\PRN221\Assignment_2\HospitalManagement\BusinessObject\obj\Debug\net6.0\BusinessObject.AssemblyInfoInputs.cache
+N:\FPTU\Summer Semester 2023\PRN221\Assignment_2\HospitalManagement\BusinessObject\obj\Debug\net6.0\BusinessObject.AssemblyInfo.cs
+N:\FPTU\Summer Semester 2023\PRN221\Assignment_2\HospitalManagement\BusinessObject\obj\Debug\net6.0\BusinessObject.csproj.CoreCompileInputs.cache
+N:\FPTU\Summer Semester 2023\PRN221\Assignment_2\HospitalManagement\BusinessObject\obj\Debug\net6.0\BusinessObject.dll
+N:\FPTU\Summer Semester 2023\PRN221\Assignment_2\HospitalManagement\BusinessObject\obj\Debug\net6.0\refint\BusinessObject.dll
+N:\FPTU\Summer Semester 2023\PRN221\Assignment_2\HospitalManagement\BusinessObject\obj\Debug\net6.0\BusinessObject.pdb
+N:\FPTU\Summer Semester 2023\PRN221\Assignment_2\HospitalManagement\BusinessObject\obj\Debug\net6.0\BusinessObject.genruntimeconfig.cache
+N:\FPTU\Summer Semester 2023\PRN221\Assignment_2\HospitalManagement\BusinessObject\obj\Debug\net6.0\ref\BusinessObject.dll

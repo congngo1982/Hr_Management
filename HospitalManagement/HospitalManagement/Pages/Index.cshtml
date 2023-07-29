@@ -1,0 +1,101 @@
+﻿@page "/Index"
+@model HospitalManagement.Pages.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Welcome, @Model.Staff</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<form method="post">
+    Find By Name: <input type="text" asp-for="@Model.Name"/>
+    <button type="submit" class="btn btn-light">Search</button>
+</form>
+<form id="form" method="get">
+    <select name="sorting" class="custom-select mb-3" onchange="this.form.submit()">
+        @{
+            var sorting = Model.Sorting;
+            if (sorting == "default")
+            {
+                <option selected value="default">Default</option>
+                <option value="asc">Ascending</option>
+                <option value="dec">Decrease</option>
+            }else if(sorting == "asc")
+            {
+                <option value="default">Default</option>
+                <option selected value="asc">Ascending</option>
+                <option value="dec">Decrease</option>
+            }
+            else
+            {
+                <option value="default">Default</option>
+                <option value="asc">Ascending</option>
+                <option selected value="dec">Decrease</option>
+            }
+            <input type="hidden" name="name" value="@Model.Name"/>
+        }
+    </select>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DoctorInformation[0].DoctorName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DoctorInformation[0].Birthday)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DoctorInformation[0].Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DoctorInformation[0].DoctorAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DoctorInformation[0].GraduationYear)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DoctorInformation[0].DoctorLicenseNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DoctorInformation[0].Department)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.DoctorInformation) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DoctorName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Birthday)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DoctorAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GraduationYear)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DoctorLicenseNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Department.DepartmentName)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.DoctorId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.DoctorId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.DoctorId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

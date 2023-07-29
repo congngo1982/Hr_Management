@@ -1,0 +1,63 @@
+﻿@page "/"
+@model HospitalManagement.Pages.HomeModel
+@{
+    Layout = "";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - HospitalManagement</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/HospitalManagement.styles.css" asp-append-version="true" />
+</head>
+<body style="background-color: ghostwhite">
+    <header style="margin-left: 0%">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+                <a class="navbar-brand" asp-area="" asp-page="/Index">HospitalManagement</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+    </header>
+    
+
+    <div style="width:50%; margin-left:25%; margin-top: 2%; background-color: white; border-radius:15px; height:400px; box-shadow: 5px 10px 18px #888888">
+        <br />
+        <h3 style="margin-left:5%">Login Information</h3>
+        <form method="post" style="position:relative; width:60%; margin-left:20%;">
+            <br />
+            <br />
+            <div class="form-group">
+                <label for="email">Username:</label>
+                <input asp-for="@Model.Username" class="form-control" placeholder="Enter email" type="text" /><span asp-validation-for="@Model.Username" style="color:green"></span>
+            </div> <br />
+            <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input asp-for="@Model.Password" class="form-control" placeholder="Enter password" type="password" /><span asp-validation-for="@Model.Password" style="color:green"></span>
+            </div> <br />
+            <button type="submit" class="btn btn-info" style="width:30%; color:white; margin-left:35%; margin-top: 1%">Login</button>
+            <div style="color:red">@ViewData["ErrorMessage"]</div>
+        </form>
+    </div>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+</body>
+</html>

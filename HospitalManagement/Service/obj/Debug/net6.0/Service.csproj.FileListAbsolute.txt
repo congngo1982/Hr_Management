@@ -1,0 +1,15 @@
+N:\FPTU\Summer Semester 2023\PRN221\Assignment_2\HospitalManagement\Service\bin\Debug\net6.0\Service.deps.json
+N:\FPTU\Summer Semester 2023\PRN221\Assignment_2\HospitalManagement\Service\bin\Debug\net6.0\Service.dll
+N:\FPTU\Summer Semester 2023\PRN221\Assignment_2\HospitalManagement\Service\bin\Debug\net6.0\Service.pdb
+N:\FPTU\Summer Semester 2023\PRN221\Assignment_2\HospitalManagement\Service\bin\Debug\net6.0\BusinessObject.dll
+N:\FPTU\Summer Semester 2023\PRN221\Assignment_2\HospitalManagement\Service\bin\Debug\net6.0\BusinessObject.pdb
+N:\FPTU\Summer Semester 2023\PRN221\Assignment_2\HospitalManagement\Service\obj\Debug\net6.0\Service.csproj.AssemblyReference.cache
+N:\FPTU\Summer Semester 2023\PRN221\Assignment_2\HospitalManagement\Service\obj\Debug\net6.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+N:\FPTU\Summer Semester 2023\PRN221\Assignment_2\HospitalManagement\Service\obj\Debug\net6.0\Service.AssemblyInfoInputs.cache
+N:\FPTU\Summer Semester 2023\PRN221\Assignment_2\HospitalManagement\Service\obj\Debug\net6.0\Service.AssemblyInfo.cs
+N:\FPTU\Summer Semester 2023\PRN221\Assignment_2\HospitalManagement\Service\obj\Debug\net6.0\Service.csproj.CoreCompileInputs.cache
+N:\FPTU\Summer Semester 2023\PRN221\Assignment_2\HospitalManagement\Service\obj\Debug\net6.0\Service.csproj.CopyComplete
+N:\FPTU\Summer Semester 2023\PRN221\Assignment_2\HospitalManagement\Service\obj\Debug\net6.0\Service.dll
+N:\FPTU\Summer Semester 2023\PRN221\Assignment_2\HospitalManagement\Service\obj\Debug\net6.0\refint\Service.dll
+N:\FPTU\Summer Semester 2023\PRN221\Assignment_2\HospitalManagement\Service\obj\Debug\net6.0\Service.pdb
+N:\FPTU\Summer Semester 2023\PRN221\Assignment_2\HospitalManagement\Service\obj\Debug\net6.0\ref\Service.dll
